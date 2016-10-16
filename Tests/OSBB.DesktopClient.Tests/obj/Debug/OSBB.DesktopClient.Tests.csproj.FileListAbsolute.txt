@@ -1,0 +1,78 @@
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\OSBB.DesktopClient.Tests\bin\Debug\OSBB.DesktopClient.Tests.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\OSBB.DesktopClient.Tests\bin\Debug\OSBB.DesktopClient.Tests.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\OSBB.DesktopClient.Tests\bin\Debug\OSBB.DesktopClient.exe
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\OSBB.DesktopClient.Tests\bin\Debug\OSBB.Windows.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\OSBB.DesktopClient.Tests\bin\Debug\OSBB.DesktopClient.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\OSBB.DesktopClient.Tests\bin\Debug\OSBB.Windows.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\OSBB.DesktopClient.Tests\obj\Debug\OSBB.DesktopClient.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\OSBB.DesktopClient.Tests\obj\Debug\OSBB.DesktopClient.Tests.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\OSBB.DesktopClient.Tests\obj\Debug\OSBB.DesktopClient.Tests.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\OSBB.DesktopClient.Tests.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\OSBB.DesktopClient.Tests.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\OSBB.DesktopClient.exe
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\OSBB.Windows.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\OSBB.DesktopClient.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\OSBB.Windows.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Tests\OSBB.DesktopClient.Tests\obj\Debug\OSBB.DesktopClient.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Tests\OSBB.DesktopClient.Tests\obj\Debug\OSBB.DesktopClient.Tests.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Tests\OSBB.DesktopClient.Tests\obj\Debug\OSBB.DesktopClient.Tests.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\GenderEnumeration.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\OSBB.Data.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\OSBB.Data.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\OSBB.DesktopClient.Tests.dll.config
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\OSBB.DesktopClient.Tests.dll.config
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\OSBB.DesktopClient.Tests.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\OSBB.DesktopClient.Tests.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\GenderEnumeration.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\OSBB.Data.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\OSBB.DesktopClient.exe
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\OSBB.Windows.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\OSBB.Data.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\OSBB.DesktopClient.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\OSBB.Windows.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Tests\OSBB.DesktopClient.Tests\obj\Debug\OSBB.DesktopClient.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Tests\OSBB.DesktopClient.Tests\obj\Debug\OSBB.DesktopClient.Tests.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Tests\OSBB.DesktopClient.Tests\obj\Debug\OSBB.DesktopClient.Tests.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\ModeEnumeration.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\OSBB.DesktopClient.Tests.dll.config
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\OSBB.DesktopClient.Tests.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\OSBB.DesktopClient.Tests.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\GenderEnumeration.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\OSBB.Data.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\OSBB.DesktopClient.exe
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\OSBB.Windows.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\PaymentMode.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\ModeEnumeration.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\OSBB.Data.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\OSBB.DesktopClient.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\OSBB.Windows.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Tests\OSBB.DesktopClient.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Tests\OSBB.DesktopClient.Tests\obj\Debug\OSBB.DesktopClient.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Tests\OSBB.DesktopClient.Tests\obj\Debug\OSBB.DesktopClient.Tests.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Tests\OSBB.DesktopClient.Tests\obj\Debug\OSBB.DesktopClient.Tests.pdb

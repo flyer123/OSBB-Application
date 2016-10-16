@@ -1,0 +1,46 @@
+﻿<Window x:Class="OSBB.DesktopClient.Views.AppartmentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModel="clr-namespace:OSBB.DesktopClient.ViewModels" 
+        mc:Ignorable="d"
+        d:DataContext="{d:DesignInstance viewModel:SelectedAppartmentViewModel}"
+        xmlns:data="clr-namespace:OSBB.Data;assembly=OSBB.Data" 
+        xmlns:windows="clr-namespace:OSBB.Windows;assembly=OSBB.Windows"
+        Title="AppartmentWindow" Height="445.092" Width="392.748">
+   <Window.Resources>
+      <BooleanToVisibilityConverter x:Key="VisibilityConverter" />
+   </Window.Resources>
+   <Grid>
+      <StackPanel Margin="20" DockPanel.Dock="Right">
+         <Label>Номер</Label>
+         <TextBox Text="{Binding Number, 
+                                    ValidatesOnDataErrors=True, 
+                                    UpdateSourceTrigger=LostFocus}" />
+         <Label>Этаж</Label>
+         <TextBox Text="{Binding Floor, 
+                                    ValidatesOnDataErrors=True, 
+                                    UpdateSourceTrigger=LostFocus}" />
+         <Label>Жилая площадь</Label>
+         <TextBox Text="{Binding LivingArea, 
+                                    ValidatesOnDataErrors=True, 
+                                    UpdateSourceTrigger=LostFocus}" />
+         <Label>Общая площадь</Label>
+         <TextBox Text="{Binding GeneralArea, 
+                                    ValidatesOnDataErrors=True, 
+                                    UpdateSourceTrigger=LostFocus}" />
+         <!--<Label>Начислено</Label>
+         <TextBox Text="{Binding Charged, 
+                                    ValidatesOnDataErrors=True, 
+                                    UpdateSourceTrigger=LostFocus}" />
+         <Label>Оплачено</Label>
+         <TextBox Text="{Binding Payment, 
+                                    ValidatesOnDataErrors=True, 
+                                    UpdateSourceTrigger=LostFocus}" />-->
+         <TextBlock Visibility="{Binding CanModify, Converter={StaticResource VisibilityConverter}}">
+               <Hyperlink Command="{Binding UpdateAppartmentCommand}">Сохранить</Hyperlink>
+         </TextBlock>
+      </StackPanel>
+   </Grid>
+</Window>

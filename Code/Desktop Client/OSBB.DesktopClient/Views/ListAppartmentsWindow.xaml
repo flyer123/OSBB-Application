@@ -1,0 +1,108 @@
+﻿<Window x:Class="OSBB.DesktopClient.Views.ListAppartmentsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModel="clr-namespace:OSBB.DesktopClient.ViewModels" 
+        mc:Ignorable="d"
+        d:DataContext="{d:DesignInstance viewModel:ListAppartmentViewModel}"
+        xmlns:data="clr-namespace:OSBB.Data;assembly=OSBB.Data" 
+        xmlns:windows="clr-namespace:OSBB.Windows;assembly=OSBB.Windows"
+        xmlns:l="clr-namespace:OSBB.DesktopClient"
+        Title="MainWindow" Height="475" Width="843" Closed="Window_Closed">
+   <Window.Resources>
+      <BooleanToVisibilityConverter x:Key="VisibilityConverter" />
+      <l:SubstractValueConverter x:Key="SubstractConverter" />
+   </Window.Resources>
+   <Grid>
+      <Grid.RowDefinitions>
+         <RowDefinition Height="Auto" />
+         <RowDefinition Height="219*" />
+         <RowDefinition Height="149*" />
+      </Grid.RowDefinitions>
+      <StackPanel Grid.Row="0" Orientation="Horizontal">
+         <TextBlock  Margin="40,10,5,10">
+            <Hyperlink Command="{Binding OpenNewAppartmentCommand}">Добавить квартиру</Hyperlink>
+         </TextBlock>
+         <TextBlock  Margin="10,10,5,10" Visibility="{Binding AppartmentIsSelected, Converter={StaticResource VisibilityConverter}}">
+            <Hyperlink Command="{Binding OpenAppartmentCommand}">Редактировать квартиру</Hyperlink>
+             <Hyperlink Command="{ Binding OpenSpdtBillDialogCommand}">Рассчитать СПДТ</Hyperlink>
+            <Hyperlink Command="{ Binding OpenElectricityBillDialogCommand}">Рассчитать свет</Hyperlink>
+             <Hyperlink Command="{ Binding OpenWaterBillDialogCommand}">Рассчитать воду</Hyperlink>
+             <Hyperlink Command="{ Binding OpenGasBillDialogCommand}">Рассчитать газ</Hyperlink>
+              <Hyperlink Command="{ Binding OpenSpdtPaymentDialogCommand}">Оплатить СПДТ</Hyperlink>
+            <Hyperlink Command="{ Binding OpenElectricityPaymentDialogCommand}">Оплатить Свет</Hyperlink>
+             <Hyperlink Command="{ Binding OpenWaterPaymentDialogCommand}">Оплатить Воду</Hyperlink>
+             <Hyperlink Command="{ Binding OpenGasPaymentDialogCommand}">Оплатить Газ</Hyperlink>
+         </TextBlock>
+         <TextBlock Margin="10,10,5,10" Visibility="{Binding AppartmentIsSelected, Converter={StaticResource VisibilityConverter}}">
+            <Hyperlink Command="{Binding DeleteAppartmentCommand}">Удалить квартиру</Hyperlink>
+         </TextBlock>
+      </StackPanel>
+      <ListView Margin="30,10" Grid.Row="1" Name="AppartmentsListView" ItemsSource="{Binding Path=Appartments}" SelectedIndex="0" SelectedItem="{Binding SelectedAppartment}">
+         <ListView.View>
+            <GridView>
+               <GridViewColumn Header="Номер" DisplayMemberBinding="{Binding Number}" Width="Auto"/>
+               <GridViewColumn Header="Этаж" DisplayMemberBinding="{Binding Floor}" Width="Auto"/>
+               <GridViewColumn Header="Жилая площадь" DisplayMemberBinding="{Binding LivingArea}" Width="Auto"/>
+               <GridViewColumn Header="Общая площадь" DisplayMemberBinding="{Binding GeneralArea}" Width="Auto"/>
+               <GridViewColumn Header="СПДТ Начислено" DisplayMemberBinding="{Binding SpdtBill}" Width="Auto"/>
+               <GridViewColumn Header="СПДТ Оплачено" DisplayMemberBinding="{Binding SpdtPayment}" Width="Auto"/>
+                <GridViewColumn Header="Свет Начислено" DisplayMemberBinding="{Binding ElectricityBill}" Width="Auto"/>
+                <GridViewColumn Header="Свет Оплачено" DisplayMemberBinding="{Binding ElectricityPayment}" Width="Auto"/>
+                <GridViewColumn Header="Вода Начислено" DisplayMemberBinding="{Binding WaterBill}" Width="Auto"/>
+                <GridViewColumn Header="Вода Оплачено" DisplayMemberBinding="{Binding WaterPayment}" Width="Auto"/>
+                <GridViewColumn Header="Газ Начислено" DisplayMemberBinding="{Binding GasBill}" Width="Auto"/>
+                <GridViewColumn Header="Газ Оплачено" DisplayMemberBinding="{Binding GasPayment}" Width="Auto"/>
+                <GridViewColumn Header="Всего Начислено" DisplayMemberBinding="{Binding TotalBill}" Width="Auto"/>
+                <GridViewColumn Header="Всего Оплачено" DisplayMemberBinding="{Binding TotalPayment}" Width="Auto"/>
+                <GridViewColumn Header="Остаток" Width="Auto">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                        <TextBlock>
+                           <TextBlock.Text>
+                              <MultiBinding Converter="{StaticResource SubstractConverter}">
+                                 <MultiBinding.Bindings>
+                                    <Binding Path="TotalBill"/>
+                                    <Binding Path="TotalPayment"/>
+                                 </MultiBinding.Bindings>
+                              </MultiBinding>
+                           </TextBlock.Text>
+                        </TextBlock>
+                     </DataTemplate>
+                  </GridViewColumn.CellTemplate>
+               </GridViewColumn>
+            </GridView>
+         </ListView.View>
+      </ListView>
+      <Grid Grid.Row="2">
+         <Grid.RowDefinitions>
+            <RowDefinition Height="45"/>
+            <RowDefinition />
+         </Grid.RowDefinitions>
+         <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <TextBlock Margin="40,5, 5,5" Visibility="{Binding AppartmentIsSelected, Converter={StaticResource VisibilityConverter}}">
+               <Hyperlink Command="{Binding OpenNewOccupantCommand}">Добавить проживающего</Hyperlink>
+            </TextBlock>
+            <TextBlock Margin="5,5" Visibility="{Binding OccupantIsSelected, Converter={StaticResource VisibilityConverter}}">
+               <Hyperlink Command="{Binding OpenOccupantForEditCommand}">Редактировать данные проживающего</Hyperlink>
+               </TextBlock>
+            <TextBlock Margin="5,5" Visibility="{Binding OccupantIsSelected, Converter={StaticResource VisibilityConverter}}">
+               <Hyperlink Command="{Binding DeleteOccupantCommand}">Удалить проживающего</Hyperlink>
+            </TextBlock>
+         </StackPanel>
+         <ListView Margin="30,10" Grid.Row="1" Name="OccupantsListView" ItemsSource="{Binding ElementName=AppartmentsListView, Path=SelectedItem.Occupants}" SelectedItem="{Binding SelectedOccupant}">
+            <ListView.View>
+               <GridView>
+                  <GridViewColumn Header="Фамилия" DisplayMemberBinding="{Binding LastName}" Width="Auto"/>
+                  <GridViewColumn Header="Имя" DisplayMemberBinding="{Binding FirstName}" Width="Auto"/>
+                  <GridViewColumn Header="Отчество" DisplayMemberBinding="{Binding MiddleName}" Width="Auto"/>
+                  <GridViewColumn Header="Пол" DisplayMemberBinding="{Binding DisplayGender}" Width="Auto"/>
+                  <GridViewColumn Header="Дата рождения" DisplayMemberBinding="{Binding BirthDate, StringFormat=dd/MM/yyyy}" Width="Auto"/>
+                  <GridViewColumn Header="Владелец" DisplayMemberBinding="{Binding OwnerString}" Width="Auto"/>
+               </GridView>
+            </ListView.View>
+         </ListView>
+      </Grid>
+   </Grid>
+</Window>

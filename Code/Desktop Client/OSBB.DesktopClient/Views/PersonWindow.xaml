@@ -1,0 +1,44 @@
+﻿<Window x:Class="OSBB.DesktopClient.Views.PersonWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:controls="clr-namespace:DatePickerExtended;assembly=DatePickerExtended"
+         xmlns:viewModel="clr-namespace:OSBB.DesktopClient.ViewModels" 
+        mc:Ignorable="d"
+        d:DataContext="{d:DesignInstance viewModel:SelectedOccupantViewModel}"
+        xmlns:data="clr-namespace:OSBB.Data;assembly=OSBB.Data" 
+        xmlns:local="clr-namespace:GenderEnumeration;assembly=GenderEnumeration"
+         xmlns:windows="clr-namespace:OSBB.Windows;assembly=OSBB.Windows"
+        Title="PersonWindow" Height="336" Width="375">
+   <Window.Resources>
+      <BooleanToVisibilityConverter x:Key="VisibilityConverter" />
+   </Window.Resources>
+   <StackPanel Margin="30" >
+         <TextBlock>Имя</TextBlock>
+            <TextBox Text="{Binding FirstName, 
+                                    ValidatesOnDataErrors=True, 
+                                    UpdateSourceTrigger=PropertyChanged}" />
+         <TextBlock>Фамилия</TextBlock>
+            <TextBox Text="{Binding LastName, 
+                                    ValidatesOnDataErrors=True, 
+                                    UpdateSourceTrigger=PropertyChanged}" />
+         <TextBlock>Отчество</TextBlock>
+            <TextBox Text="{Binding MiddleName, 
+                                    ValidatesOnDataErrors=True, 
+                                    UpdateSourceTrigger=PropertyChanged}" />
+         <TextBlock>Пол</TextBlock>
+            <ComboBox DisplayMemberPath="Key" SelectedValuePath="Value" ItemsSource="{Binding GenderList}" SelectedValue="{Binding SelectedGender, ValidatesOnDataErrors=True, Mode=TwoWay}"></ComboBox>
+         <TextBlock>Дата рождения</TextBlock>
+            <DatePicker SelectedDate="{Binding Path=BirthDate, Mode=TwoWay, 
+                          ValidatesOnExceptions=true, 
+                          NotifyOnValidationError=true, 
+                          UpdateSourceTrigger=PropertyChanged}" DataContext="{Binding}" ></DatePicker>
+         <TextBlock>Владелец</TextBlock>
+            <CheckBox IsChecked="{Binding Owner}"></CheckBox>
+      <TextBlock  Visibility="{Binding CanModify, Converter={StaticResource VisibilityConverter}}">
+            <Hyperlink Command="{Binding UpdateOccupantCommand }">Сохранить</Hyperlink>
+         </TextBlock>
+      </StackPanel>
+</Window>

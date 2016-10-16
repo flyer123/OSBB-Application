@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40418.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSBB.DesktopClient", "Desktop Client\OSBB.DesktopClient\OSBB.DesktopClient.csproj", "{263D28EA-92FB-476C-A378-30FC7FD9D31C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSBB.Windows", "Desktop Client\OSBB.Windows\OSBB.Windows.csproj", "{34FDB5CB-CA56-4851-B1C9-CEC784D7DE90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desktop Client", "Desktop Client", "{366819FA-CACB-403E-96ED-767B00794A23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSBB.Data", "Desktop Client\OSBB.Data\OSBB.Data.csproj", "{9199DA9B-599D-48B7-A3C2-11C201DD76B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{263D28EA-92FB-476C-A378-30FC7FD9D31C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{263D28EA-92FB-476C-A378-30FC7FD9D31C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{263D28EA-92FB-476C-A378-30FC7FD9D31C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{263D28EA-92FB-476C-A378-30FC7FD9D31C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34FDB5CB-CA56-4851-B1C9-CEC784D7DE90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34FDB5CB-CA56-4851-B1C9-CEC784D7DE90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34FDB5CB-CA56-4851-B1C9-CEC784D7DE90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34FDB5CB-CA56-4851-B1C9-CEC784D7DE90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9199DA9B-599D-48B7-A3C2-11C201DD76B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9199DA9B-599D-48B7-A3C2-11C201DD76B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9199DA9B-599D-48B7-A3C2-11C201DD76B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9199DA9B-599D-48B7-A3C2-11C201DD76B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{263D28EA-92FB-476C-A378-30FC7FD9D31C} = {366819FA-CACB-403E-96ED-767B00794A23}
+		{34FDB5CB-CA56-4851-B1C9-CEC784D7DE90} = {366819FA-CACB-403E-96ED-767B00794A23}
+		{9199DA9B-599D-48B7-A3C2-11C201DD76B3} = {366819FA-CACB-403E-96ED-767B00794A23}
+	EndGlobalSection
+EndGlobal

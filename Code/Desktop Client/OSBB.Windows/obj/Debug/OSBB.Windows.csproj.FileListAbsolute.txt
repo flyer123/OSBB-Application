@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\OSBB.Windows\bin\Debug\OSBB.Windows.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\OSBB.Windows\bin\Debug\OSBB.Windows.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\OSBB.Windows\obj\Debug\OSBB.Windows.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\OSBB.Windows\obj\Debug\OSBB.Windows.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\OSBB.Windows\obj\Debug\OSBB.Windows.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Build\OSBB.Windows.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Build\OSBB.Windows.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.Windows\obj\Debug\OSBB.Windows.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.Windows\obj\Debug\OSBB.Windows.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.Windows\obj\Debug\OSBB.Windows.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Build\OSBB.Windows.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Build\OSBB.Windows.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.Windows\obj\Debug\OSBB.Windows.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.Windows\obj\Debug\OSBB.Windows.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.Windows\obj\Debug\OSBB.Windows.pdb

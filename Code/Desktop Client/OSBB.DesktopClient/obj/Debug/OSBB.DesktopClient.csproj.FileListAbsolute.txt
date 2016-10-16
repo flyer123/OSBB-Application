@@ -1,0 +1,93 @@
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\OSBB.DesktopClient\bin\Debug\OSBB.DesktopClient.exe.config
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\OSBB.DesktopClient\bin\Debug\OSBB.DesktopClient.exe
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\OSBB.DesktopClient\bin\Debug\OSBB.DesktopClient.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\OSBB.DesktopClient\obj\Debug\Views\MainWindow.baml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\OSBB.DesktopClient\obj\Debug\Views\MainWindow.g.cs
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\OSBB.DesktopClient\obj\Debug\App.g.cs
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient_MarkupCompile.cache
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient.g.resources
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient.Properties.Resources.resources
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient.exe
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\OSBB.DesktopClient\bin\Debug\OSBB.Windows.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\OSBB.DesktopClient\bin\Debug\OSBB.Windows.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient_MarkupCompile.lref
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\bin\Debug\OSBB.DesktopClient.exe.config
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient.exe
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Build\OSBB.DesktopClient.exe.config
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Build\OSBB.DesktopClient.exe
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Build\OSBB.DesktopClient.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\App.g.cs
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient_MarkupCompile.cache
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient_MarkupCompile.lref
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient.g.resources
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient.Properties.Resources.resources
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\PersonWindow.baml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\PersonWindow.g.cs
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\AppartmentWindow.g.cs
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\ListAppartmentsWindow.g.cs
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\AppartmentWindow.baml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\ListAppartmentsWindow.baml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Build\OSBB.DesktopClient.exe.config
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient.exe
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Build\OSBB.DesktopClient.exe
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Build\OSBB.DesktopClient.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\AppartmentWindow.g.cs
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\ListAppartmentsWindow.g.cs
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\PersonWindow.g.cs
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\App.g.cs
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient_MarkupCompile.cache
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient_MarkupCompile.lref
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\AppartmentWindow.baml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\ListAppartmentsWindow.baml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\PersonWindow.baml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient.g.resources
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient.Properties.Resources.resources
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\ChargeWindow.baml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\ChargeWindow.g.cs
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\PaymentWindow.g.cs
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\PaymentWindow.baml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\GeneratedInternalTypeHelper.g.cs
+d:\OSBB Before GlobalChange\OSBB\Build\OSBB.DesktopClient.exe.config
+d:\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient.exe
+d:\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Build\OSBB.DesktopClient.exe.config
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient.exe
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\AppartmentWindow.g.cs
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\ListAppartmentsWindow.g.cs
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\MoneyOperationWindow.g.cs
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\PersonWindow.g.cs
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\App.g.cs
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient_MarkupCompile.cache
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient_MarkupCompile.lref
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Build\OSBB.DesktopClient.exe
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Build\OSBB.DesktopClient.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\AppartmentWindow.baml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\ListAppartmentsWindow.baml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\MoneyOperationWindow.baml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\PersonWindow.baml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient.g.resources
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient.Properties.Resources.resources
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\ElectricityBillWindow.baml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\ElectricityBillWindow.g.cs
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\GasBillWindow.baml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\SpdtBillWindow.baml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\WaterBillWindow.baml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\GasBillWindow.g.cs
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\SpdtBillWindow.g.cs
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\WaterBillWindow.g.cs
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\PaymentView.baml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\PaymentView.g.cs

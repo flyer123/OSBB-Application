@@ -1,0 +1,39 @@
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\OSBB.Data.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\OSBB.Data.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.Data\obj\Debug\OSBB.Data.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.Data\obj\Debug\OSBB.Data.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.Data\obj\Debug\OSBB.Data.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\GenderEnumeration.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\OSBB.Data.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\OSBB.Data.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\GenderEnumeration.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.Data\obj\Debug\OSBB.Data.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.Data\obj\Debug\OSBB.Data.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.Data\obj\Debug\OSBB.Data.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\OSBB.Data.dll.config
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\OSBB.Data.dll.config
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\OSBB.Data.dll.config
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\OSBB.Data.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\OSBB.Data.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\GenderEnumeration.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.Data\obj\Debug\OSBB.Data.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.Data\obj\Debug\OSBB.Data.dll
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.Data\obj\Debug\OSBB.Data.pdb
