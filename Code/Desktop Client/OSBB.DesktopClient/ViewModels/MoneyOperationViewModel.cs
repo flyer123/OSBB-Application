@@ -94,7 +94,7 @@ namespace OSBB.DesktopClient.ViewModels
             {
                 return;
             }
-            context.UpdateAppartment(Id, app.Number, app.Floor, app.LivingArea, app.GeneralArea, app.ElectricityBill + MoneyAmmount, app.ElectricityPayment, app.WaterBill, app.WaterPayment,
+            context.UpdateAppartment(Id, app.Number, app.Floor, app.LivingArea, app.GeneralArea, app.ElectricityBill, app.ElectricityPayment, app.WaterBill, app.WaterPayment,
             app.GasBill, app.GasPayment, app.SpdtBill, app.SpdtPayment, app.TotalBill + MoneyAmmount, app.TotalPayment, app.ElectricityPrevCounter, app.ElectricityActualCounter, app.WaterPrevCounter,
             app.WaterActualCounter, app.GasPrevCounter, app.GasActualCounter);
             int i = parentAppartmentViewModel.Appartments.IndexOf(app);

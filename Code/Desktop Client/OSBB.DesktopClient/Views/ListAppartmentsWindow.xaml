@@ -9,7 +9,7 @@
         xmlns:data="clr-namespace:OSBB.Data;assembly=OSBB.Data" 
         xmlns:windows="clr-namespace:OSBB.Windows;assembly=OSBB.Windows"
         xmlns:l="clr-namespace:OSBB.DesktopClient"
-        Title="MainWindow" Height="475" Width="843" Closed="Window_Closed">
+        Title="ОСМД" Height="475" Width="843" Closed="Window_Closed">
    <Window.Resources>
       <BooleanToVisibilityConverter x:Key="VisibilityConverter" />
       <l:SubstractValueConverter x:Key="SubstractConverter" />
