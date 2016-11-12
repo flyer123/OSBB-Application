@@ -19,7 +19,10 @@ namespace OSBB.Data
         }
 
 
-        //updates selected appartment
+
+
+
+        //updates selected appartment data
         public void UpdateAppartment(int id, int number, int floor, double living, double general, decimal electricitybill, decimal electricitypayment, decimal waterbill, decimal waterpayment,
             decimal gasbill, decimal gaspayment, decimal spdtbill, decimal spdtpayment, decimal totalbill, decimal totalpayment,
             int electricityprevcounter, int electricityactualcounter, int waterprevcounter, int wateractualcounter, int gasprevcounter, int gasactualcounter)
@@ -82,10 +85,6 @@ namespace OSBB.Data
         }
 
 
-       
-
-
-
         //gets list of appartments
         //in order to display it in main window
         public ICollection<Appartment> GetAppartmentList()
@@ -94,8 +93,133 @@ namespace OSBB.Data
         }
 
 
+        //Filters appartments by min and max
+        //values of total charge, and sorting them
+        public List<Appartment> FilterAppartment(decimal min, decimal max, string criterion, bool isascending)
+        {
 
-        //update data of selected person
+            switch (criterion)
+            {
+                case "gasCharge":
+                    {
+                        if (isascending)
+                        {
+                            return context.Appartments.Where(x => x.GasBill >= min && x.GasBill <= max).ToList();
+                        }
+                        else
+                        {
+                            return context.Appartments.Where(x => x.GasBill >= min && x.GasBill <= max).OrderByDescending(s => s.GasBill).ToList();
+                        }
+                    }
+                case "waterCharge":
+                    {
+                        if (isascending)
+                        {
+                            return context.Appartments.Where(x => x.WaterBill >= min && x.WaterBill <= max).ToList();
+                        }
+                        else
+                        {
+                            return context.Appartments.Where(x => x.WaterBill >= min && x.WaterBill <= max).OrderByDescending(s => s.GasBill).ToList();
+                        }
+                    }
+                case "spdtCharge":
+                    {
+                        if (isascending)
+                        {
+                            return context.Appartments.Where(x => x.SpdtBill >= min && x.SpdtBill <= max).ToList();
+                        }
+                        else
+                        {
+                            return context.Appartments.Where(x => x.SpdtBill >= min && x.SpdtBill <= max).OrderByDescending(s => s.GasBill).ToList();
+                        }
+                    }
+                case "electricityCharge":
+                    {
+                        if (isascending)
+                        {
+                            return context.Appartments.Where(x => x.ElectricityBill >= min && x.ElectricityBill <= max).ToList();
+                        }
+                        else
+                        {
+                            return context.Appartments.Where(x => x.ElectricityBill >= min && x.ElectricityBill <= max).OrderByDescending(s => s.GasBill).ToList();
+                        }
+                    }
+                case "gasPayment":
+                    {
+                        if (isascending)
+                        {
+                            return context.Appartments.Where(x => x.GasPayment >= min && x.GasPayment <= max).ToList();
+                        }
+                        else
+                        {
+                            return context.Appartments.Where(x => x.GasPayment >= min && x.GasPayment <= max).OrderByDescending(s => s.GasBill).ToList();
+                        }
+                    }
+                case "waterPayment":
+                    {
+                        if (isascending)
+                        {
+                            return context.Appartments.Where(x => x.WaterPayment >= min && x.WaterPayment <= max).ToList();
+                        }
+                        else
+                        {
+                            return context.Appartments.Where(x => x.WaterPayment >= min && x.WaterPayment <= max).OrderByDescending(s => s.GasBill).ToList();
+                        }
+                    }
+                case "spdtPayment":
+                    {
+                        if (isascending)
+                        {
+                            return context.Appartments.Where(x => x.SpdtPayment >= min && x.SpdtPayment <= max).ToList();
+                        }
+                        else
+                        {
+                            return context.Appartments.Where(x => x.SpdtPayment >= min && x.SpdtPayment <= max).OrderByDescending(s => s.GasBill).ToList();
+                        }
+                    }
+                case "electricityPayment":
+                    {
+                        if (isascending)
+                        {
+                            return context.Appartments.Where(x => x.ElectricityPayment >= min && x.ElectricityPayment <= max).ToList();
+                        }
+                        else
+                        {
+                            return context.Appartments.Where(x => x.ElectricityPayment >= min && x.ElectricityPayment <= max).OrderByDescending(s => s.GasBill).ToList();
+                        }
+                    }
+                case "totalCharge":
+                    {
+                        if (isascending)
+                        {
+                            return context.Appartments.Where(x => x.TotalBill >= min && x.TotalBill <= max).ToList();
+                        }
+                        else
+                        {
+                            return context.Appartments.Where(x => x.TotalBill >= min && x.TotalBill <= max).OrderByDescending(s => s.GasBill).ToList();
+                        }
+
+                    }
+                case "totalPayment":
+                    {
+                        if (isascending)
+                        {
+                            return context.Appartments.Where(x => x.TotalPayment >= min && x.TotalPayment <= max).ToList();
+                        }
+                        else
+                        {
+                            return context.Appartments.Where(x => x.TotalPayment >= min && x.TotalPayment <= max).OrderByDescending(s => s.GasBill).ToList();
+                        }
+
+                    }
+            }
+            return null;
+        }
+
+
+
+
+        //updates data of selected person
         public void UpdateOccupant(int id, int appartmentId, string first, string last, string middle, Gender gender, DateTime birthDate, bool owner)
         {
              Occupant  occupant = context.Occupants.Where(x => x.OccupantId == id).FirstOrDefault<Occupant>();

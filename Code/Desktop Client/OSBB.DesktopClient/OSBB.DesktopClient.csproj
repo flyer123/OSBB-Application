@@ -96,6 +96,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="BootStrapper.cs" />
+    <Compile Include="FilterValueConverter.cs" />
     <Compile Include="Interfaces\IModalDialog.cs" />
     <Compile Include="Interfaces\IServiceLocator.cs" />
     <Compile Include="Services\ServiceProvider.cs" />

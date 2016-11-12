@@ -28,5 +28,6 @@ namespace OSBB.DesktopClient.Views
         {
             App.Current.Shutdown();
         }
+
     }
 }

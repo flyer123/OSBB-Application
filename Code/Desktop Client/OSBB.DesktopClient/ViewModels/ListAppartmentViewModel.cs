@@ -140,6 +140,7 @@ namespace OSBB.DesktopClient.ViewModels
         {
             get
             {
+                
                 return new ActionCommand(x => OpenAppartmentForEdit());
             }
         }
@@ -237,6 +238,15 @@ namespace OSBB.DesktopClient.ViewModels
                 return new ActionCommand(x => OpenSpdtPaymentDialog());
             }
         }
+
+        public ICommand FilterCommand
+        {
+            get
+            {
+
+                return new ActionCommand(x => FilterResults(x));
+            }
+        }
         #endregion
 
 
@@ -263,6 +273,9 @@ namespace OSBB.DesktopClient.ViewModels
                 selectedAppartment = null;
             }
         }
+
+
+
 
         //Open selected appartment
         private void OpenAppartmentForEdit()
@@ -459,6 +472,12 @@ namespace OSBB.DesktopClient.ViewModels
                 dialog.BindViewModel(paymentViewModel);
                 dialog.ShowDialog();
             }
+        }
+
+        private void FilterResults(object ob)
+        {
+            FindFilterParameters filter = ob as FindFilterParameters;
+            this.context.FilterAppartment(filter.Min, filter.Max, filter.Criterion, filter.IsAscending);
         }
         #endregion
     }

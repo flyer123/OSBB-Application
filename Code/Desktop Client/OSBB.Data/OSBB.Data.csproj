@@ -64,6 +64,7 @@
     <Compile Include="AppartmentCheck.cs" />
     <Compile Include="BusinessContext.cs" />
     <Compile Include="DataContext.cs" />
+    <Compile Include="FindFilterParameters.cs" />
     <Compile Include="Occupant.cs" />
     <Compile Include="OccupantCheck.cs" />
     <Compile Include="PaymentModeEnum.cs" />
