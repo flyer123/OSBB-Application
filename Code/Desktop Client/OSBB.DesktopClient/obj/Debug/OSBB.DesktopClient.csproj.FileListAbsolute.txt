@@ -21,7 +21,6 @@ C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Build\OSBB.DesktopClie
 C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Build\OSBB.DesktopClient.exe
 C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Build\OSBB.DesktopClient.pdb
 C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient.csprojResolveAssemblyReference.cache
-C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\App.g.cs
 C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient_MarkupCompile.cache
 C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient_MarkupCompile.lref
 C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\OSBB.DesktopClient.g.resources
@@ -91,3 +90,4 @@ C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OS
 C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\WaterBillWindow.g.cs
 C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\PaymentView.baml
 C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\Views\PaymentView.g.cs
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.DesktopClient\obj\Debug\App.g.cs

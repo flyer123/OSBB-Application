@@ -11,10 +11,20 @@
         xmlns:data="clr-namespace:OSBB.Data;assembly=OSBB.Data" 
         xmlns:local="clr-namespace:GenderEnumeration;assembly=GenderEnumeration"
          xmlns:windows="clr-namespace:OSBB.Windows;assembly=OSBB.Windows"
-        Title="PersonWindow" Height="336" Width="375">
+        Title="Добавить проживающего" Height="354" Width="375" Background="CadetBlue">
    <Window.Resources>
       <BooleanToVisibilityConverter x:Key="VisibilityConverter" />
-   </Window.Resources>
+            <ControlTemplate x:Key="ButtonTemplate" TargetType="{x:Type Button}">
+                <Border Name="Border" BorderBrush="Black" BorderThickness="3" CornerRadius="2" TextBlock.Foreground="White" Background="CadetBlue">
+                    <ContentPresenter Margin="{TemplateBinding Padding}"></ContentPresenter>
+                </Border>
+                <ControlTemplate.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True">
+                        <Setter TargetName="Border" Property="Background" Value="DarkCyan" />
+                    </Trigger>
+                </ControlTemplate.Triggers>
+            </ControlTemplate>
+    </Window.Resources>
    <StackPanel Margin="30" >
          <TextBlock>Имя</TextBlock>
             <TextBox Text="{Binding FirstName, 
@@ -37,8 +47,9 @@
                           UpdateSourceTrigger=PropertyChanged}" DataContext="{Binding}" ></DatePicker>
          <TextBlock>Владелец</TextBlock>
             <CheckBox IsChecked="{Binding Owner}"></CheckBox>
-      <TextBlock  Visibility="{Binding CanModify, Converter={StaticResource VisibilityConverter}}">
+      <!--<TextBlock  Visibility="{Binding CanModify, Converter={StaticResource VisibilityConverter}}">
             <Hyperlink Command="{Binding UpdateOccupantCommand }">Сохранить</Hyperlink>
-         </TextBlock>
+         </TextBlock>-->
+        <Button Template="{StaticResource ButtonTemplate}" IsEnabled="{Binding CanModify}" Margin="77,10,72,10" Padding="5">Сохранить</Button>
       </StackPanel>
 </Window>

@@ -23,7 +23,6 @@ C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desk
 C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBBListView\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\EntityFramework.SqlServerCompact.xml
 C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\OSBB.Data.dll.config
 C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\System.Data.SqlServerCe.dll
-C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\EntityFramework.SqlServerCompact.xml
 C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\OSBB.Data.dll.config
 C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\OSBB.Data.dll
 C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\OSBB.Data.pdb
