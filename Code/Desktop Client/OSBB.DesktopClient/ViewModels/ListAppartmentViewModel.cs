@@ -25,7 +25,7 @@ namespace OSBB.DesktopClient.ViewModels
         private Occupant selectedOccupant;
         private SelectedAppartmentViewModel openAppartmentViewModel;
         private SelectedOccupantViewModel openOccupantViewModel;
-        private PaymentModeEnum paymentMode;
+        //private PaymentModeEnum paymentMode;
 
 
         /// <summary>

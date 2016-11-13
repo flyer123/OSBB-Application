@@ -9,7 +9,7 @@
         xmlns:data="clr-namespace:OSBB.Data;assembly=OSBB.Data" 
         xmlns:windows="clr-namespace:OSBB.Windows;assembly=OSBB.Windows"
         xmlns:l="clr-namespace:OSBB.DesktopClient"
-        Title="ОСМД" Height="644" Width="1305" Closed="Window_Closed" Background="CadetBlue" Foreground="White">
+        Title="ОСМД" Height="644" Width="1305" Closed="Window_Closed" Background="CadetBlue" Foreground="White" SizeToContent="WidthAndHeight">
    <Window.Resources>
       <BooleanToVisibilityConverter x:Key="VisibilityConverter" />
       <l:SubstractValueConverter x:Key="SubstractConverter" />
@@ -38,15 +38,130 @@
             </Style.Triggers>
         </Style>
     </Window.Resources>
-   <Grid>
+    <StackPanel Orientation="Vertical"><!-- Main stackpanel-->
+        <StackPanel Orientation="Horizontal"><!-- Appartments stackpanel-->
+            <StackPanel Orientation="Vertical"><!-- Buttons stackpanel-->
+                <Button Template="{StaticResource ButtonTemplate}" Padding="5" Margin="10, 10,5,5" Command="{Binding OpenNewAppartmentCommand}">Добавить квартиру</Button>
+                <Button IsEnabled="{Binding AppartmentIsSelected}" Template="{StaticResource ButtonTemplate}" Padding="5" Margin="10, 5,5,5" Command="{Binding OpenAppartmentCommand}">Редактировать квартиру</Button>
+                <Button IsEnabled="{Binding AppartmentIsSelected}" Template="{StaticResource ButtonTemplate}" Padding="5" Margin="10, 5,5,5" Command="{Binding DeleteAppartmentCommand}">Удалить квартиру</Button>
+                <Button IsEnabled="{Binding AppartmentIsSelected}" Template="{StaticResource ButtonTemplate}" Padding="5" Margin="10, 10,5,5" Command="{ Binding OpenSpdtBillDialogCommand}">Рассчитать СПДТ</Button>
+                <Button IsEnabled="{Binding AppartmentIsSelected}" Template="{StaticResource ButtonTemplate}" Padding="5" Margin="10, 5,5,5" Command="{ Binding OpenElectricityBillDialogCommand}">Рассчитать свет</Button>
+                <Button IsEnabled="{Binding AppartmentIsSelected}" Template="{StaticResource ButtonTemplate}" Padding="5" Margin="10, 5,5,5" Command="{ Binding OpenWaterBillDialogCommand}">Рассчитать воду</Button>
+                <Button IsEnabled="{Binding AppartmentIsSelected}" Template="{StaticResource ButtonTemplate}" Padding="5" Margin="10, 5,5,5" Command="{ Binding OpenGasBillDialogCommand}">Рассчитать газ</Button>
+                <Button IsEnabled="{Binding AppartmentIsSelected}" Template="{StaticResource ButtonTemplate}" Padding="5" Margin="10, 5,5,5" Command="{ Binding OpenSpdtPaymentDialogCommand}">Оплатить СПДТ</Button>
+                <Button IsEnabled="{Binding AppartmentIsSelected}" Template="{StaticResource ButtonTemplate}" Padding="5" Margin="10, 5,5,5" Command="{ Binding OpenElectricityPaymentDialogCommand}">Оплатить Свет</Button>
+                <Button IsEnabled="{Binding AppartmentIsSelected}" Template="{StaticResource ButtonTemplate}" Padding="5" Margin="10, 5,5,5" Command="{ Binding OpenWaterPaymentDialogCommand}">Оплатить Воду</Button>
+                <Button IsEnabled="{Binding AppartmentIsSelected}" Template="{StaticResource ButtonTemplate}" Padding="5" Margin="10, 5,5,5" Command="{ Binding OpenGasPaymentDialogCommand}">Оплатить Газ</Button>
+            </StackPanel>
+            <StackPanel Orientation="Vertical"><!-- Listview and filters stackpanel-->
+                <StackPanel Orientation="Horizontal"><!-- Filters-->
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="20,10,5,10">Выделите критерии поиска</TextBlock>
+                        <TextBlock Margin="10,10,5,10">Минимум</TextBlock>
+                        <TextBox Margin="10,10,5,10" Name="minCriterion" Height="20" Width="40"></TextBox>
+                        <TextBlock Margin="10,10,5,10">Максимум</TextBlock>
+                        <TextBox Margin="10,10,5,10" Name="maxCriterion" Height="20" Width="40"></TextBox>
+                        <ComboBox Margin="10,10,5,10" Name="sortCriterionComboBox" Width="90">
+                            <ComboBoxItem Tag="totalCharge">Общий долг</ComboBoxItem>
+                            <ComboBoxItem Tag="totalPayment">Общая оплата</ComboBoxItem>
+                            <ComboBoxItem Tag="gasCharge">Долг газ</ComboBoxItem>
+                            <ComboBoxItem Tag="gasPayment">Оплата газ</ComboBoxItem>
+                            <ComboBoxItem Tag="waterCharge">Долг вода</ComboBoxItem>
+                            <ComboBoxItem Tag="waterPayment">Оплата вода</ComboBoxItem>
+                            <ComboBoxItem Tag="electricityCharge">Долг свет</ComboBoxItem>
+                            <ComboBoxItem Tag="electricityPayment">Оплата свет</ComboBoxItem>
+                            <ComboBoxItem Tag="spdtCharge">Долг СПДТ</ComboBoxItem>
+                            <ComboBoxItem Tag="spdtPayment">Оплата СПДТ</ComboBoxItem>
+                        </ComboBox>
+                        <TextBlock Margin="10,10,5,10">По возрастанию</TextBlock>
+                        <CheckBox Name="directionCheckBox" Margin="10,10,5,10"></CheckBox>
+                        <Button Margin="10,10,5,10" Command="{Binding FilterCommand}" >
+                            <Button.Content>
+                                <TextBlock>Сортировка</TextBlock>
+                            </Button.Content>
+                            <Button.CommandParameter>
+                                <MultiBinding Converter="{StaticResource FilterConverter}">
+                                    <Binding ElementName="minCriterion" Path="Text"/>
+                                    <Binding ElementName="maxCriterion" Path="Text"/>
+                                    <Binding ElementName="sortCriterionComboBox" Path="SelectedItem.Tag"/>
+                                    <Binding ElementName="directionCheckBox" Path="IsChecked"/>
+                                </MultiBinding>
+                            </Button.CommandParameter>
+                        </Button>
+                    </StackPanel>
+                </StackPanel>
+                <!-- Appartments list-->
+                <ListView ItemContainerStyle="{StaticResource AlternatingStyle}" AlternationCount="2" Margin="30,10" VerticalAlignment="Stretch" Name="AppartmentsListView" ItemsSource="{Binding Path=Appartments}" SelectedIndex="0" SelectedItem="{Binding SelectedAppartment}" Height="417">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Номер" DisplayMemberBinding="{Binding Number}" Width="Auto"/>
+                            <GridViewColumn Header="Этаж" DisplayMemberBinding="{Binding Floor}" Width="Auto"/>
+                            <GridViewColumn Header="Жилая площадь" DisplayMemberBinding="{Binding LivingArea}" Width="Auto"/>
+                            <GridViewColumn Header="Общая площадь" DisplayMemberBinding="{Binding GeneralArea}" Width="Auto"/>
+                            <GridViewColumn Header="СПДТ Начислено" DisplayMemberBinding="{Binding SpdtBill}" Width="Auto"/>
+                            <GridViewColumn Header="СПДТ Оплачено" DisplayMemberBinding="{Binding SpdtPayment}" Width="Auto"/>
+                            <GridViewColumn Header="Свет Начислено" DisplayMemberBinding="{Binding ElectricityBill}" Width="Auto"/>
+                            <GridViewColumn Header="Свет Оплачено" DisplayMemberBinding="{Binding ElectricityPayment}" Width="Auto"/>
+                            <GridViewColumn Header="Вода Начислено" DisplayMemberBinding="{Binding WaterBill}" Width="Auto"/>
+                            <GridViewColumn Header="Вода Оплачено" DisplayMemberBinding="{Binding WaterPayment}" Width="Auto"/>
+                            <GridViewColumn Header="Газ Начислено" DisplayMemberBinding="{Binding GasBill}" Width="Auto"/>
+                            <GridViewColumn Header="Газ Оплачено" DisplayMemberBinding="{Binding GasPayment}" Width="Auto"/>
+                            <GridViewColumn Header="Всего Начислено" DisplayMemberBinding="{Binding TotalBill}" Width="Auto"/>
+                            <GridViewColumn Header="Всего Оплачено" DisplayMemberBinding="{Binding TotalPayment}" Width="Auto"/>
+                            <GridViewColumn Header="Остаток" Width="Auto">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock>
+                                            <TextBlock.Text>
+                                                <MultiBinding Converter="{StaticResource SubstractConverter}">
+                                                    <MultiBinding.Bindings>
+                                                        <Binding Path="TotalBill"/>
+                                                        <Binding Path="TotalPayment"/>
+                                                    </MultiBinding.Bindings>
+                                                </MultiBinding>
+                                            </TextBlock.Text>
+                                        </TextBlock>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </StackPanel>
+       </StackPanel>
+        <StackPanel Orientation="Horizontal"><!-- Persons stackpanel-->
+            <StackPanel Orientation="Vertical"><!-- Buttons stackpanel-->
+                    <Button Template="{StaticResource ButtonTemplate}" Padding="5" Margin="10, 10,5,5" Command="{Binding OpenNewOccupantCommand}">Добавить проживающего</Button>
+                    <Button IsEnabled="{Binding OccupantIsSelected}" Template="{StaticResource ButtonTemplate}" Padding="5" Margin="10, 5,5,5" Command="{Binding OpenOccupantForEditCommand}">Редактировать данные проживающего</Button>
+                    <Button IsEnabled="{Binding OccupantIsSelected}" Template="{StaticResource ButtonTemplate}" Padding="5" Margin="10, 5,5,5" Command="{Binding DeleteOccupantCommand}">Удалить проживающего</Button>
+                </StackPanel>
+            <!-- Occupants listview-->
+                <ListView Width="Auto" MinHeight="80" Margin="30,10" Grid.Row="2" Grid.Column="1" Name="OccupantsListView" ItemsSource="{Binding ElementName=AppartmentsListView, Path=SelectedItem.Occupants}" SelectedItem="{Binding SelectedOccupant}">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Фамилия" DisplayMemberBinding="{Binding LastName}" Width="Auto"/>
+                            <GridViewColumn Header="Имя" DisplayMemberBinding="{Binding FirstName}" Width="Auto"/>
+                            <GridViewColumn Header="Отчество" DisplayMemberBinding="{Binding MiddleName}" Width="Auto"/>
+                            <GridViewColumn Header="Пол" DisplayMemberBinding="{Binding DisplayGender}" Width="Auto"/>
+                            <GridViewColumn Header="Дата рождения" DisplayMemberBinding="{Binding BirthDate, StringFormat=dd/MM/yyyy}" Width="Auto"/>
+                            <GridViewColumn Header="Владелец" DisplayMemberBinding="{Binding OwnerString}" Width="Auto"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </StackPanel>
+        
+ <!-- ****************************************************************************************************************************************-->
+        <!--<Grid>
         <Grid.RowDefinitions>
-            <RowDefinition MinHeight="150" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
+        <GridSplitter Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Height="5" />
         <StackPanel Orientation="Vertical" Grid.Column="0" Grid.Row="0">
             <Button Template="{StaticResource ButtonTemplate}" Padding="5" Margin="10, 10,5,5" Command="{Binding OpenNewAppartmentCommand}">Добавить квартиру</Button>
             <Button IsEnabled="{Binding AppartmentIsSelected}" Template="{StaticResource ButtonTemplate}" Padding="5" Margin="10, 5,5,5" Command="{Binding OpenAppartmentCommand}">Редактировать квартиру</Button>
@@ -132,12 +247,12 @@
          </ListView.View>
       </ListView>
      </StackPanel>
-        <StackPanel Orientation="Vertical" Grid.Column="0" Grid.Row="1">
+        <StackPanel Orientation="Vertical" Grid.Column="0" Grid.Row="2">
             <Button Template="{StaticResource ButtonTemplate}" Padding="5" Margin="10, 10,5,5" Command="{Binding OpenNewOccupantCommand}">Добавить проживающего</Button>
-            <Button Template="{StaticResource ButtonTemplate}" Padding="5" Margin="10, 5,5,5" Command="{Binding OpenOccupantForEditCommand}">Редактировать данные проживающего</Button>
-            <Button Template="{StaticResource ButtonTemplate}" Padding="5" Margin="10, 5,5,5" Command="{Binding DeleteOccupantCommand}">Удалить проживающего</Button>
+            <Button IsEnabled="{Binding OccupantIsSelected}" Template="{StaticResource ButtonTemplate}" Padding="5" Margin="10, 5,5,5" Command="{Binding OpenOccupantForEditCommand}">Редактировать данные проживающего</Button>
+            <Button IsEnabled="{Binding OccupantIsSelected}" Template="{StaticResource ButtonTemplate}" Padding="5" Margin="10, 5,5,5" Command="{Binding DeleteOccupantCommand}">Удалить проживающего</Button>
         </StackPanel>
-        <ListView Width="Auto" MinHeight="80" Margin="30,10" Grid.Row="1" Grid.Column="1" Name="OccupantsListView" ItemsSource="{Binding ElementName=AppartmentsListView, Path=SelectedItem.Occupants}" SelectedItem="{Binding SelectedOccupant}">
+        <ListView Width="Auto" MinHeight="80" Margin="30,10" Grid.Row="2" Grid.Column="1" Name="OccupantsListView" ItemsSource="{Binding ElementName=AppartmentsListView, Path=SelectedItem.Occupants}" SelectedItem="{Binding SelectedOccupant}">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="Фамилия" DisplayMemberBinding="{Binding LastName}" Width="Auto"/>
@@ -149,5 +264,6 @@
                 </GridView>
             </ListView.View>
         </ListView>
-   </Grid>
+   </Grid>-->
+    </StackPanel>
 </Window>

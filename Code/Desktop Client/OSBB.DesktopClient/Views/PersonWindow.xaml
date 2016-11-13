@@ -11,7 +11,7 @@
         xmlns:data="clr-namespace:OSBB.Data;assembly=OSBB.Data" 
         xmlns:local="clr-namespace:GenderEnumeration;assembly=GenderEnumeration"
          xmlns:windows="clr-namespace:OSBB.Windows;assembly=OSBB.Windows"
-        Title="Добавить проживающего" Height="354" Width="375" Background="CadetBlue">
+        Title="Добавить проживающего" Height="376" Width="375" Background="CadetBlue">
    <Window.Resources>
       <BooleanToVisibilityConverter x:Key="VisibilityConverter" />
             <ControlTemplate x:Key="ButtonTemplate" TargetType="{x:Type Button}">
