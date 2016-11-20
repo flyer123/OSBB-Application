@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Windows.Input;
+using System.Collections.ObjectModel;
+using System.Windows.Data;
 using OSBB.Windows;
 using OSBB.Data;
 using OSBB.DesktopClient.Services;
@@ -20,11 +23,13 @@ namespace OSBB.DesktopClient.ViewModels
         //to differentiate between payment and charge
         public ModeEnumeration.Mode mode { get; private set; }
 
+        private string minCriterion;
         private readonly BusinessContext context;
         private Appartment selectedAppartment;
         private Occupant selectedOccupant;
         private SelectedAppartmentViewModel openAppartmentViewModel;
         private SelectedOccupantViewModel openOccupantViewModel;
+        private CollectionViewSource appartmensCollection;
         //private PaymentModeEnum paymentMode;
 
 
@@ -41,9 +46,50 @@ namespace OSBB.DesktopClient.ViewModels
             openAppartmentViewModel = new SelectedAppartmentViewModel(this, this.context);
             openOccupantViewModel = new SelectedOccupantViewModel(this);
             this.context = context;
+            appartmensCollection = new CollectionViewSource();
+            appartmensCollection.Source = Appartments;
+            appartmensCollection.Filter += appartmensCollection_Filter;
         }
 
+        public ICollectionView AppartmentSourceCollection
+        {
+            get
+            {
+                return appartmensCollection.View;
+            }
+        }
+        private void appartmensCollection_Filter(object sender, FilterEventArgs e)
+        {
+            if (string.IsNullOrEmpty(minCriterion))
+            {
+                e.Accepted = true;
+                return;
+            }
+            Appartment app = e.Item as Appartment;
+            decimal min = decimal.Parse(minCriterion);
+            if (app.TotalBill >= min)
+            {
+                e.Accepted = true;
+            }
+            else
+            {
+                e.Accepted = false;
+            }
+        }
 
+        public string MinCriterion
+        {
+            get
+            {
+                return minCriterion;
+            }
+            set
+            {
+                minCriterion = value;
+                this.appartmensCollection.View.Refresh();
+                NotifyPropertyChanged("MinCriterion");
+            }
+        }
 
         //returns viewmodel to edit or create new appartment
         public SelectedAppartmentViewModel OpenAppartmentViewModel

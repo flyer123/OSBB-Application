@@ -57,18 +57,13 @@
                 <StackPanel Orientation="Horizontal"><!-- Filters-->
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Margin="50,10,5,10">Показать должников свыше</TextBlock>
-                        <TextBox Margin="10,10,5,10" Name="minCriterion" Height="20" Width="40"></TextBox>
+                        <TextBox Margin="10,10,5,10" Name="minCriterion" Height="20" Width="40" Text="{Binding MinCriterion, UpdateSourceTrigger=PropertyChanged}"></TextBox>
                         <TextBlock Margin="10,10,5,10">По возрастанию</TextBlock>
                         <CheckBox Name="directionCheckBox" Margin="10,10,5,10"></CheckBox>
-                        <Button Margin="10,10,5,10" Command="{Binding FilterCommand}" >
-                            <Button.Content>
-                                <TextBlock>Применить</TextBlock>
-                            </Button.Content>                            
-                        </Button>
                     </StackPanel>
                 </StackPanel>
                 <!-- Appartments list-->
-                <ListView ItemContainerStyle="{StaticResource AlternatingStyle}" AlternationCount="2" Margin="30,10" VerticalAlignment="Stretch" Name="AppartmentsListView" ItemsSource="{Binding Path=Appartments}" SelectedIndex="0" SelectedItem="{Binding SelectedAppartment}" Height="417">
+                <ListView ItemContainerStyle="{StaticResource AlternatingStyle}" AlternationCount="2" Margin="30,10" VerticalAlignment="Stretch" Name="AppartmentsListView" ItemsSource="{Binding Path=AppartmentSourceCollection}" SelectedIndex="0" SelectedItem="{Binding SelectedAppartment}" Height="417">
                     <ListView.View>
                         <GridView>
                             <GridViewColumn Header="Номер" DisplayMemberBinding="{Binding Number}" Width="Auto"/>
