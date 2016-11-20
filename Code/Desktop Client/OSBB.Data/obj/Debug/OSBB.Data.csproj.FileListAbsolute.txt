@@ -36,3 +36,4 @@ C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OS
 C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.Data\obj\Debug\OSBB.Data.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.Data\obj\Debug\OSBB.Data.dll
 C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB Before GlobalChange\OSBB\Code\Desktop Client\OSBB.Data\obj\Debug\OSBB.Data.pdb
+C:\Users\Admin\Documents\Visual Studio 2013\Projects\OSBB\Code\Desktop Client\OSBB.Data\bin\Debug\EntityFramework.SqlServerCompact.xml

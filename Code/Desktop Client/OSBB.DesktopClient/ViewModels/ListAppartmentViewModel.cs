@@ -476,8 +476,6 @@ namespace OSBB.DesktopClient.ViewModels
 
         private void FilterResults(object ob)
         {
-            FindFilterParameters filter = ob as FindFilterParameters;
-            this.context.FilterAppartment(filter.Min, filter.Max, filter.Criterion, filter.IsAscending);
         }
         #endregion
     }

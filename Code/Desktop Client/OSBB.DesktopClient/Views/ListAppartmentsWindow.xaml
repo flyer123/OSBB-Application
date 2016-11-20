@@ -56,37 +56,14 @@
             <StackPanel Orientation="Vertical"><!-- Listview and filters stackpanel-->
                 <StackPanel Orientation="Horizontal"><!-- Filters-->
                     <StackPanel Orientation="Horizontal">
-                        <TextBlock Margin="20,10,5,10">Выделите критерии поиска</TextBlock>
-                        <TextBlock Margin="10,10,5,10">Минимум</TextBlock>
+                        <TextBlock Margin="50,10,5,10">Показать должников свыше</TextBlock>
                         <TextBox Margin="10,10,5,10" Name="minCriterion" Height="20" Width="40"></TextBox>
-                        <TextBlock Margin="10,10,5,10">Максимум</TextBlock>
-                        <TextBox Margin="10,10,5,10" Name="maxCriterion" Height="20" Width="40"></TextBox>
-                        <ComboBox Margin="10,10,5,10" Name="sortCriterionComboBox" Width="90">
-                            <ComboBoxItem Tag="totalCharge">Общий долг</ComboBoxItem>
-                            <ComboBoxItem Tag="totalPayment">Общая оплата</ComboBoxItem>
-                            <ComboBoxItem Tag="gasCharge">Долг газ</ComboBoxItem>
-                            <ComboBoxItem Tag="gasPayment">Оплата газ</ComboBoxItem>
-                            <ComboBoxItem Tag="waterCharge">Долг вода</ComboBoxItem>
-                            <ComboBoxItem Tag="waterPayment">Оплата вода</ComboBoxItem>
-                            <ComboBoxItem Tag="electricityCharge">Долг свет</ComboBoxItem>
-                            <ComboBoxItem Tag="electricityPayment">Оплата свет</ComboBoxItem>
-                            <ComboBoxItem Tag="spdtCharge">Долг СПДТ</ComboBoxItem>
-                            <ComboBoxItem Tag="spdtPayment">Оплата СПДТ</ComboBoxItem>
-                        </ComboBox>
                         <TextBlock Margin="10,10,5,10">По возрастанию</TextBlock>
                         <CheckBox Name="directionCheckBox" Margin="10,10,5,10"></CheckBox>
                         <Button Margin="10,10,5,10" Command="{Binding FilterCommand}" >
                             <Button.Content>
-                                <TextBlock>Сортировка</TextBlock>
-                            </Button.Content>
-                            <Button.CommandParameter>
-                                <MultiBinding Converter="{StaticResource FilterConverter}">
-                                    <Binding ElementName="minCriterion" Path="Text"/>
-                                    <Binding ElementName="maxCriterion" Path="Text"/>
-                                    <Binding ElementName="sortCriterionComboBox" Path="SelectedItem.Tag"/>
-                                    <Binding ElementName="directionCheckBox" Path="IsChecked"/>
-                                </MultiBinding>
-                            </Button.CommandParameter>
+                                <TextBlock>Применить</TextBlock>
+                            </Button.Content>                            
                         </Button>
                     </StackPanel>
                 </StackPanel>
